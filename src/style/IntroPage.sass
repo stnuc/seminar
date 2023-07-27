@@ -1,25 +1,36 @@
 @import '../color'
 
-    
-#intro
+.intro__section
     height: 100vh
+    width: 100%
     position: relative
     display: flex
     flex-direction: column
     justify-content: center
     align-items: center
     font-family: Pretendard
+
     .title
-        margin-left: 66px
+        margin: 0 40px 0 40px
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: center
         position: relative
         font-weight: 500
         font-size: 96px
         color: $color
 
+        .front-text
+            position: relative
+            padding-left: 104px
+
+        .back-text
+            margin-left: 20px
+
         .logo
             position: absolute
-            top: -2px
-            left: -102px
+            left: 0px
             width: 119px
             height: 120px
 
@@ -30,10 +41,10 @@
             width: 667px
             height: 672px
             z-index: -999
-    
+
     .sub-title
-        margin-top: 32px
-        font-size: 40px
+        margin-top: 40px
+        font-size: 36px
         color: #e7e7e7
 
     .scrolldown
@@ -49,3 +60,25 @@
             margin-top: 24px
             font-size: 24px
             color: #5a5a5a
+
+    @media screen and (max-width: 575px)
+        .title
+            font-weight: 500
+            font-size: 64px
+
+            .front-text
+                padding-left: 70px
+
+            .logo
+                width: 80px
+                height: 80px
+
+            .backlogo
+                left: -320px
+
+        .sub-title
+            font-size: 28px
+
+        .scrolldown
+            p
+                font-size: 20px
