@@ -45,7 +45,7 @@ export const TopTopicPage = (): ReactNode => {
             style={{ transform: `translateX(${-312 * (number - 1)}px)` }}
           >
             <TopicCard
-              imgSrc={`${process.env.PUBLIC_URL}/imgs/ai-topic.jpg`}
+              imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/ai-topic.jpg`}
               title="AI"
               content={`Topics related with AI
 - Machine learning
@@ -53,14 +53,14 @@ export const TopTopicPage = (): ReactNode => {
 - Reinforcement learning`}
             ></TopicCard>
             <TopicCard
-              imgSrc={`${process.env.PUBLIC_URL}/imgs/programming-topic.jpg`}
+              imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/programming-topic.jpg`}
               title="Programming"
               content={`Talking about programming methodology & paradigm
 - OOP
 - Funtional`}
             ></TopicCard>
             <TopicCard
-              imgSrc={`${process.env.PUBLIC_URL}/imgs/math-topic.jpg`}
+              imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/math-topic.jpg`}
               title="Math"
               content={`Learning basic math
 - Set theory
@@ -77,7 +77,7 @@ export const TopTopicPage = (): ReactNode => {
       <div className="main-title">Top Topics</div>
       <div className="card__container">
         <TopicCard
-          imgSrc={`${process.env.PUBLIC_URL}/imgs/ai-topic.jpg`}
+          imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/ai-topic.jpg`}
           title="AI"
           content={`Topics related with AI
 - Machine learning
@@ -85,14 +85,14 @@ export const TopTopicPage = (): ReactNode => {
 - Reinforcement learning`}
         ></TopicCard>
         <TopicCard
-          imgSrc={`${process.env.PUBLIC_URL}/imgs/programming-topic.jpg`}
+          imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/programming-topic.jpg`}
           title="Programming"
           content={`Talking about programming methodology & paradigm
 - OOP
 - Funtional`}
         ></TopicCard>
         <TopicCard
-          imgSrc={`${process.env.PUBLIC_URL}/imgs/math-topic.jpg`}
+          imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/math-topic.jpg`}
           title="Math"
           content={`Learning basic math
 - Set theory

@@ -18,7 +18,7 @@ Members interested in or majoring in the field may open seminars
 The topic of the seminar is unlimited to specific areas`,
             closingRemarks: 'Since 2023.6.3',
           }}
-          imgSrc={`${process.env.PUBLIC_URL}/imgs/motivation.png`}
+          imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/motivation.png`}
         ></Paragraph>
         <Paragraph
           textSide={TEXTSIDE.right}
@@ -30,7 +30,7 @@ Seminar`,
 With topics that more people can relate to, communicate with more peoples`,
             closingRemarks: 'Thanks to contributors!',
           }}
-          imgSrc={`${process.env.PUBLIC_URL}/imgs/publicopen.png`}
+          imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/publicopen.png`}
         ></Paragraph>
         <DataGraph
           textSide={TEXTSIDE.left}
@@ -49,7 +49,7 @@ Create and manage seminars to have good on many people`,
             sub3: 'Public-opened Seminars',
             data3: 0,
           }}
-          imgSrc={`${process.env.PUBLIC_URL}/imgs/status.png`}
+          imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/status.png`}
         ></DataGraph>
       </div>
       <TopTopicPage></TopTopicPage>
