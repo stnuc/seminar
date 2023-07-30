@@ -1,0 +1,44 @@
+{
+  "start": "2023-6-4",
+  "end": "2023-9-4",
+  "name": "2023H1",
+  "description": "2023 H1 seminar",
+  "items": [
+    {
+      "type": "private",
+      "link": "",
+      "name": "Git & Github Tutorial",
+      "organizer": {
+        "name": "moordo91",
+        "link": "https://github.com/moordo91"
+      },
+      "date": ["2023-6-7"],
+      "description": "Short lecture how to use git and github",
+      "keyword": ["git", "github"]
+    },
+    {
+      "type": "private",
+      "link": "",
+      "name": "Reinforcement Learning I",
+      "organizer": {
+        "name": "devhoodit",
+        "link": "https://github.com/devhoodit"
+      },
+      "date": ["2023-6-21", "2023-6-28", "2023-7-12", "2023-7-19", "2023-7-26"],
+      "description": "",
+      "keyword": ["rl", "reinforcement", "reinforcement learning"]
+    },
+    {
+      "type": "public",
+      "link": "",
+      "name": "Variable",
+      "organizer": {
+        "name": "devhoodit",
+        "link": "https://github.com/devhoodit"
+      },
+      "date": ["2023-7-29"],
+      "description": "What is variable, pointer, reference?\nStart from basic computer architecture, OS memory management\nLearning about dangling pointer and overload vulnerability and how to avoid them",
+      "keyword": ["pointer", "reference", "memory", "os"]
+    }
+  ]
+}
