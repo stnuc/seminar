@@ -5,9 +5,9 @@ if (Test-Path -LiteralPath c:\autodeploy) {
 }
 Copy-Item -Path ./build/*, .git -Destination C:\autodeploy -recurse -Force
 cd C:\autodeploy
-# git checkout -b page
-# git checkout page
-# git add .
-# git commit -m "page"
-# git push -u origin page --force
+git checkout -b page
+git checkout page
+git add .
+git commit -m "page"
+git push -u origin page --force
 cd $cd
