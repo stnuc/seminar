@@ -99,5 +99,17 @@ SeminarMetaDTO
 <details>
 <summary>example json</summary>
 
+```json
+{
+  "items": [
+    {
+      "name": "seminar name",
+      "code": "seminar code",
+      "datalink": "",
+      "link": ""
+    }
+  ]
+}
 
+```
 </details>
