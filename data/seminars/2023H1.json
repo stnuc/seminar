@@ -5,6 +5,24 @@
   "description": "2023 H1 seminar",
   "items": [
     {
+      "type": 1,
+      "link": "",
+      "name": "2023H1",
+      "organizers": [
+        {
+          "name": "devhoodit",
+          "link": "https://github.com/devhoodit"
+        },
+        {
+          "name": "moordo91",
+          "link": "https://github.com/moordo91"
+        }
+      ],
+      "date": ["2023-6-4", "2023-9-4"],
+      "description": "Applicator's 2023 the first half (H1) seminar\n\nDate: from 2023-6-4, to 2023-9-4 \nPurpose: promoting and sharing basic knowledges\n\nOpening words\nThis is the first seminar since the establishment of the society\nThank you for participating\nSeminars were held to share and develop each other's knowledge\nSeminars on sympathetic topics are held in public\n\nThrough consultation with undergraduate researchers, seminars on AI technology will be held across the board\n● Machine Learning\n● Computer Vision\n● Reinforcement Learning\n\nIn addition, the seminar will be held with topics related to basic programming and contents that will help the project progress\n\nThan you for your interest\nfrom, 2023H1 seminar leader devhoodit\n\n\nApplicator, Society in Seoul National University of Science and Technology, Dept. of Applied Artifical Intelligence",
+      "keyword": ["2023H1"]
+    },
+    {
       "type": 0,
       "link": "",
       "name": "Git & Github Tutorial",
