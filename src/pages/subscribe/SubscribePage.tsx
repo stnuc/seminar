@@ -1,5 +1,9 @@
 import { useState, type ReactNode, type FormEvent } from 'react'
-import { GithubOutlined } from '@ant-design/icons'
+import {
+  GithubOutlined,
+  InstagramOutlined,
+  TwitterOutlined,
+} from '@ant-design/icons'
 import '../../style/subscribe/SubscribePage.sass'
 
 enum InputState {
@@ -11,6 +15,8 @@ enum InputState {
 }
 
 export const SubscribePage = (): ReactNode => {
+  const isEmailServiceValid = false
+
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [text, setText] = useState('')
   const [inputState, setInputState] = useState(InputState.valid)
@@ -58,17 +64,24 @@ export const SubscribePage = (): ReactNode => {
   return (
     <div className="subscribe__section">
       <div className="title">Subscribe</div>
-      <div className="textinput" style={{ borderColor: color }}>
-        <input
-          onChange={onChange}
-          type="text"
-          value={text}
-          placeholder="Type your email"
-        />
-        <button onClick={onClick} style={{ borderColor: color }}>
-          Subscribe
-        </button>
-      </div>
+      {isEmailServiceValid ? (
+        <div className="textinput" style={{ borderColor: color }}>
+          <input
+            onChange={onChange}
+            type="text"
+            value={text}
+            placeholder="Type your email"
+          />
+          <button onClick={onClick} style={{ borderColor: color }}>
+            Subscribe
+          </button>
+        </div>
+      ) : (
+        <div className="textinput">
+          Sorry for inconvenient, email subscribe is not ready
+        </div>
+      )}
+
       <div className="subtitle">or follow social media</div>
       <div className="icon__container">
         <a
@@ -78,6 +91,22 @@ export const SubscribePage = (): ReactNode => {
           rel="noreferrer"
         >
           <GithubOutlined style={{ fontSize: '40px', color: '#ffffff' }} />
+        </a>
+        <a
+          className="icon"
+          href="https://www.instagram.com/stnuc/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <InstagramOutlined style={{ fontSize: '40px', color: '#ffffff' }} />
+        </a>
+        <a
+          className="icon"
+          href="https://twitter.com/stnuc_official"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <TwitterOutlined style={{ fontSize: '40px', color: '#ffffff' }} />
         </a>
       </div>
     </div>

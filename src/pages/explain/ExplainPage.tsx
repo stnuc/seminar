@@ -43,11 +43,11 @@ Create and manage seminars to have good on many people`,
           }}
           graphData={{
             sub1: 'Seminars opened',
-            data1: 5,
+            data1: 7,
             sub2: 'Members contributed',
             data2: 3,
             sub3: 'Public-opened Seminars',
-            data3: 0,
+            data3: 1,
           }}
           imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/status.png`}
         ></DataGraph>

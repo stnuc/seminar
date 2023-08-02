@@ -33,3 +33,6 @@ Use [auto_deploy.ps1](./auto_deploy.ps1) in window system
 > WARNING  
 > auto deploy will delete all file in C:\\autodeploy if exist  
 > be careful when use this command  
+
+## TODO
+- [ ] Refac all page, style
