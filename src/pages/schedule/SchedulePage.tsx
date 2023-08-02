@@ -6,6 +6,7 @@ import {
   LeftOutlined,
   RightOutlined,
   LinkOutlined,
+  BranchesOutlined,
 } from '@ant-design/icons'
 
 import '../../style/schedule/SchedulePage.sass'
@@ -200,6 +201,7 @@ const SessionController = (props: SessionControllerProps): ReactNode => {
         getOptionLabel={(sessionInfo: SessionInfo) => sessionInfo.name}
         getOptionValue={(sessionInfo: SessionInfo) => sessionInfo.name}
         options={sessionOptions}
+        isSearchable={false}
       ></Select>
       <Select
         className="schedule-dropdown dropdown-seminar"
@@ -213,6 +215,7 @@ const SessionController = (props: SessionControllerProps): ReactNode => {
         getOptionLabel={(seminarItem: SeminarItem) => seminarItem.name}
         getOptionValue={(seminarItem: SeminarItem) => seminarItem.name}
         options={seminarData?.items}
+        isSearchable={false}
       ></Select>
     </div>
   )
@@ -225,7 +228,17 @@ interface SeminarComponentProps {
 const SeminarComponent = (props: SeminarComponentProps): ReactNode => {
   console.log(props)
   if (props.data == null) {
-    return <div className="scheduler-seminar__container"></div>
+    return (
+      <div
+        className="scheduler-seminar__container"
+        style={{ overflow: 'hidden' }}
+      >
+        <div className="guide">
+          <BranchesOutlined />
+          <div className="text">Select seminar and see detail information</div>
+        </div>
+      </div>
+    )
   }
   return (
     <div className="scheduler-seminar__container">

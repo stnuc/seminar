@@ -78,7 +78,9 @@ export const SubscribePage = (): ReactNode => {
         </div>
       ) : (
         <div className="textinput">
-          Sorry for inconvenient, email subscribe is not ready
+          <div className="email-service-error">
+            Sorry for inconvenient, email subscribe is not ready
+          </div>
         </div>
       )}
 
