@@ -9,7 +9,6 @@ import { Footer } from './pages/footer/Footer'
 function App(): React.ReactNode {
   return (
     <div id="page">
-      {/* pages will go here */}
       <IntroPage></IntroPage>
       <ExplainPage></ExplainPage>
       <SchedulePage></SchedulePage>
