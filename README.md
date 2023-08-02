@@ -31,8 +31,8 @@ Use [auto_deploy.ps1](./auto_deploy.ps1) in window system
 ```
   
 > WARNING  
-> auto deploy will delete all file in C:\\autodeploy if exist  
-> be careful when use this command  
+> must commit all your changes and run this command
+> or, maybe conflict happened
 
 ## TODO
 - [ ] Refac all page, style
