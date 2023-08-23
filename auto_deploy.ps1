@@ -24,6 +24,7 @@ if ($LASTEXITCODE -eq 0) {
     & cmd /c "git commit -m '${TargetBranch}'"
     & cmd /c "git push origin ${TargetBranch}"
     & cmd /c "git checkout main"
+    $FromRemote = $true
 }
 else {
     "${PROGRAMNAME}: pull branch from origin/${TargetBranch} failed, ErrorCode: ${LASTEXITCODE}"
@@ -38,6 +39,7 @@ if ($LASTEXITCODE -eq 0) {
     & cmd /c "git commit -m '${TargetBranch}'"
     & cmd /c "git push origin -u ${TargetBranch}"
     & cmd /c "git checkout main"
+    $FromLocal = $true
 }
 else {
     "${PROGRAMNAME}: checkout to ${TargetBranch} branch failed, ErrorCode: ${LASTEXITCODE}"
@@ -53,12 +55,13 @@ if ($LASTEXITCODE -eq 0) {
     & cmd /c "git commit -m '${TargetBranch}'"
     & cmd /c "git push origin -u ${TargetBranch}"
     & cmd /c "git checkout main"
+    $FromOrphan = $true
 }
 else {
     "${PROGRAMNAME}: create orphan branch failed"
 }
 
-if (($FromRemote -eq $true) -or ($FromRemote -eq $true) -or ($FromRemote -eq $true)) {
+if (($FromRemote -eq $true) -or ($FromLocal -eq $true) -or ($FromOrphan -eq $true)) {
     "${PROGRAMNAME}: auto deploy success"
     exit
 }
