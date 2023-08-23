@@ -52,6 +52,4 @@ if ($LASTEXITCODE -eq 0) {
 }
 else {
     "${PROGRAMNAME}: create orphan branch failed"
-    "${PROGRAMNAME}: auto deploy is failed"
-    exit $LASTEXITCODE
 }
