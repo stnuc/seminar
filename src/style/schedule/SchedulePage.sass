@@ -1,3 +1,5 @@
+@import '../../color'
+
 .schedule__section
     background-color: #161616
     padding-top: 256px
@@ -11,7 +13,7 @@
         text-align: center
         font-size: 72px
         font-weight: 600
-        color: #ffffff
+        color: $color
         font-family: Pretendard
 
 .scheduler
@@ -48,7 +50,7 @@
             font-family: Pretendard
 
         &__menu-list
-            background: #202020
+            background: $color
             border-bottom: 2px solid white
 
         &__menu-notice
@@ -57,11 +59,11 @@
         &__option
             color: white
             font-family: Pretendard
-            background: #202020
+            background: $background-color
             cursor: pointer
 
             &--is-focused
-                background-color: #282828
+                background-color: $background-color
 
             &--is-selected
                 background-color: #eeeeee
