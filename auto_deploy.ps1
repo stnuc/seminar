@@ -3,6 +3,10 @@ Set-PSDebug -Off;
 $PROGRAMNAME = "Auto Deploy"
 $TargetBranch = "page"
 
+$FromRemote = $false
+$FromLocal = $false
+$FromOrphan = $false
+
 $ErrorActionPreference = "Stop"
 
 & cmd /c 'npm run build'
@@ -52,4 +56,13 @@ if ($LASTEXITCODE -eq 0) {
 }
 else {
     "${PROGRAMNAME}: create orphan branch failed"
+}
+
+if (($FromRemote -eq $true) -or ($FromRemote -eq $true) -or ($FromRemote -eq $true)) {
+    "${PROGRAMNAME}: auto deploy success"
+    exit
+}
+else {
+    "${PROGRAMNAME}: auto deploy failed"
+    exit 1
 }
