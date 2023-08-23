@@ -53,14 +53,14 @@ export const TopTopicPage = (): ReactNode => {
 - Reinforcement learning`}
             ></TopicCard>
             <TopicCard
-              imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/programming-topic.jpg`}
+              imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/programming-topic.png`}
               title="Programming"
               content={`Talking about programming methodology & paradigm
 - OOP
 - Funtional`}
             ></TopicCard>
             <TopicCard
-              imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/math-topic.jpg`}
+              imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/math-topic.png`}
               title="Math"
               content={`Learning basic math
 - Set theory
@@ -92,7 +92,8 @@ export const TopTopicPage = (): ReactNode => {
 - Funtional`}
         ></TopicCard>
         <TopicCard
-          imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/math-topic.jpg`}
+          imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/math-topic.png`}
+          // imgSrc={process.env.PUBLIC_URL + `/imgs/math-topic.png`}
           title="Math"
           content={`Learning basic math
 - Set theory

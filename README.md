@@ -34,5 +34,8 @@ Use [auto_deploy.ps1](./auto_deploy.ps1) in window system
 > must commit all your changes and run this command
 > or, maybe conflict happened
 
+## Credit
+- [@4ch1o3](https://github.com/4ch1o3): Top topic, math topic image  
+
 ## TODO
 - [ ] Refac all page, style

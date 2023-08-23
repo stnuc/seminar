@@ -28,7 +28,7 @@ The topic of the seminar is unlimited to specific areas`,
 Seminar`,
             content: `Some seminars are opened in public
 With topics that more people can relate to, communicate with more peoples`,
-            closingRemarks: 'Thanks to contributors!',
+            closingRemarks: 'Thanks to contributors',
           }}
           imgSrc={`https://raw.githubusercontent.com/stnuc/seminar/main/public/imgs/publicopen.png`}
         ></Paragraph>

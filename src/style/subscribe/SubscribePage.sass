@@ -1,3 +1,5 @@
+@import '../../color'
+
 .subscribe__section
     display: flex
     flex-direction: column
@@ -10,7 +12,7 @@
     .title
         font-size: 72px
         font-weight: 600
-        color: #ffffff
+        color: $color
         margin-bottom: 64px
 
     .textinput
@@ -48,8 +50,8 @@
             height: 44px
             border: none
             background-color: #ffffff00
-            caret-color: #ffffff
-            color: #ffffff
+            caret-color: $color
+            color: $color
             &:focus
                 outline: none
 
@@ -61,8 +63,8 @@
             width: 150px
             border: none
             border-left: 2px solid
-            background-color: #202020
-            color: #ffffff
+            background-color: $background-color
+            color: $color
             font-family: Pretendard
             font-size: 18px
             font-weight: 600
@@ -70,7 +72,7 @@
     .subtitle
         font-size: 24px
         font-weight: 500
-        color: #ffffff
+        color: $color
         margin-bottom: 64px
 
     .icon__container

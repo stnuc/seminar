@@ -81,7 +81,9 @@ const QuaterFetchURL =
   'https://raw.githubusercontent.com/stnuc/seminar/data/data/seminar.json'
 
 const SessionController = (props: SessionControllerProps): ReactNode => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [sessionFetchState, setSessionFetchState] = useState(FetchState.WAIT)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [seminarFetchState, setSeminarFetchState] = useState(FetchState.WAIT)
   const [sessionOptions, setSessionOptions] = useState<SessionInfo[]>([])
 
@@ -92,9 +94,6 @@ const SessionController = (props: SessionControllerProps): ReactNode => {
 
   const [sessionValue, setSessionValue] = useState<SessionInfo | null>()
   const [seminarValue, setSeminarValue] = useState<SeminarItem | null>()
-
-  console.log(sessionFetchState)
-  console.log(seminarFetchState)
 
   useEffect(() => {
     fetch(QuaterFetchURL)
@@ -226,7 +225,6 @@ interface SeminarComponentProps {
 }
 
 const SeminarComponent = (props: SeminarComponentProps): ReactNode => {
-  console.log(props)
   if (props.data == null) {
     return (
       <div
