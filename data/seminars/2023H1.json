@@ -63,6 +63,20 @@
       "date": ["2023-7-29"],
       "description": "What is variable, pointer, reference?\nStart from basic computer architecture, OS memory management\nLearning about dangling pointer and overload vulnerability and how to avoid them",
       "keyword": ["pointer", "reference", "memory", "os"]
+    },
+    {
+      "type": 0,
+      "link": "",
+      "name": "Computer Vision Basics",
+      "organizers": [
+        {
+          "name": "Kim Jung yeon",
+          "link": "https://github.com/kimjy-st"
+        }
+      ],
+      "date": ["2023-8-25"],
+      "description": "We conducted a seminar on computer vision.\nWe looked at the challenges of computer vision and the famous models.\nAnd we discussed how to improve among the projects we worked on.\n",
+      "keyword": ["computer vision"]
     }
   ]
 }
