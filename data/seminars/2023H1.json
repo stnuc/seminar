@@ -28,6 +28,108 @@
     },
     {
       "type": 0,
+      "link": "https://github.com/stnuc/applicator-projects/blob/main/projects/2023H1.md",
+      "name": "Project Seminar",
+      "organizers": [
+        {
+          "name": "devhoodit",
+          "link": "https://github.com/devhoodit"
+        },
+        {
+          "name": "moordo91",
+          "link": "https://github.com/moordo91"
+        },
+        {
+          "name": "NYS",
+          "link": "https://github.com/Nayeongseo"
+        },
+        {
+          "name": "23kimmina",
+          "link": "https://github.com/23kimmina"
+        },
+        {
+          "name": "alrimj",
+          "link": "https://github.com/alrimj"
+        },
+        {
+          "name": "dahyeon-yu",
+          "link": "https://github.com/dahyeon-yu"
+        },
+        {
+          "name": "fireeat",
+          "link": "https://github.com/fireeat"
+        },
+        {
+          "name": "Graval504",
+          "link": "https://github.com/Graval504"
+        },
+        {
+          "name": "ideagalaxy",
+          "link": "https://github.com/ideagalaxy"
+        },
+        {
+          "name": "JeongSeong97",
+          "link": "https://github.com/JeongSeong97"
+        },
+        {
+          "name": "카요이 (kayo2e)",
+          "link": "https://github.com/kayo2e"
+        },
+        {
+          "name": "kimjy-st",
+          "link": "https://github.com/kimjy-st"
+        },
+        {
+          "name": "SkyMind",
+          "link": "https://github.com/MJCho0204"
+        },
+        {
+          "name": "윤영준 (seoultech22)",
+          "link": "https://github.com/seoultech22"
+        },
+        {
+          "name": "Hyeong-Chang",
+          "link": "https://github.com/wajang"
+        },
+        {
+          "name": "juwan",
+          "link": "https://github.com/WanJuKong"
+        },
+        {
+          "name": "chicha",
+          "link": "https://github.com/zangyook"
+        },
+        {
+          "name": "KTW",
+          "link": ""
+        },
+        {
+          "name": "PKS",
+          "link": ""
+        },
+        {
+          "name": "PKW",
+          "link": ""
+        },
+        {
+          "name": "CSI",
+          "link": ""
+        },
+        {
+          "name": "NYL",
+          "link": ""
+        },
+        {
+          "name": "LYS",
+          "link": ""
+        }
+      ],
+      "date": ["2023-9-4"],
+      "description": "Applicator's 2023 the first half (H1) project seminar\n\nDate: 2023-9-4 \n\nSee more info, ref link \n\nfrom, 2023H1 project leader devhoodit\n\n\nApplicator, Society in Seoul National University of Science and Technology, Dept. of Applied Artifical Intelligence",
+      "keyword": ["project", "2023H1"]
+    },
+    {
+      "type": 0,
       "link": "",
       "name": "Git & Github Tutorial",
       "organizers": [
@@ -51,7 +153,7 @@
         }
       ],
       "date": ["2023-6-21", "2023-6-28", "2023-7-12", "2023-7-19", "2023-7-26"],
-      "description": "",
+      "description": "Understanding basic idea of reinforcement learning \nMarkov transition, reward, action, state \nValue approximation, DQN, REINFORCE\n",
       "keyword": ["rl", "reinforcement", "reinforcement learning"]
     },
     {
@@ -81,6 +183,20 @@
       "date": ["2023-8-25"],
       "description": "We conducted a seminar on computer vision.\nWe looked at the challenges of computer vision and the famous models.\nAnd we discussed how to improve among the projects we worked on.\n",
       "keyword": ["computer vision"]
+    },
+    {
+      "type": 0,
+      "link": "",
+      "name": "Art of Abstraction",
+      "organizers": [
+        {
+          "name": "devhoodit",
+          "link": "https://github.com/devhoodit"
+        }
+      ],
+      "date": ["2023-8-30"],
+      "description": "What is abstraction in programming?\nTalk about abstraction and how to represent in code\nAbstraction layer\nDifference between abstraction and encapsulation",
+      "keyword": ["programming"]
     }
   ]
 }
