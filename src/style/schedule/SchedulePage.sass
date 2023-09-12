@@ -144,12 +144,18 @@
     .seminar__side
         box-sizing: border-box
         height: 100%
+        overflow-y: scroll
+        -ms-overflow-style: none
+        scrollbar-width: none
         width: 320px
         border-left: 2px solid white
         font-family: Pretendard
         color: white
         font-size: 20px
         padding-top: 4px
+
+        &::-webkit-scrollbar
+            display: none
 
         .title
             font-size: 20px
@@ -297,10 +303,10 @@
         flex-direction: column
         align-items: center
         overflow-y: scroll
-        max-height: 440px
+        height: 440px
 
         .seminar__main
-
+            height: auto
             .detail
                 padding-left: 12px
                 padding-right: 12px
@@ -308,6 +314,8 @@
         .seminar__side
             box-sizing: border-box
             width: 100%
+            height: auto
+            flex-shrink: 0
             display: flex
             flex-direction: column
             border-left: 0px
